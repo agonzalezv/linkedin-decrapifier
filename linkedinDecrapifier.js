@@ -18,7 +18,7 @@
             while (!container.hasAttribute("data-id")) {
                 container = container.parentNode;
             }
-            container.remove();
+            container.style.opacity = '0.1';
         }
     }
 
